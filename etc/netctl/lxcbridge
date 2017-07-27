@@ -1,0 +1,6 @@
+Description="LXC Bridge"
+Interface=br0
+Connection=bridge
+IP=static
+Address=172.16.0.1/16
+SkipForwardingDelay=yes
